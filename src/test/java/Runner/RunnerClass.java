@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features={"src/main/resources/sample1.feature"},glue="StepDef",
-					plugin="json:target/jsonreport"
+					plugin="json:target/jsonreport.json"
 					)
 
 public class RunnerClass {
